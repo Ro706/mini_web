@@ -7,7 +7,14 @@
     <title>loading page</title>
 </head>
 <body>
-   <center><div class="loader"></div></center>
-
+   <center><div id = "loader" class="loader"></div></center>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=cJNoP_mIv8Tcdltk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=cJNoP_mIv8Tcdltk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <script>
+        var loader = document.getElementById("loader")
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })  
+   </script>
 </body>
 </html>
