@@ -72,11 +72,14 @@ nav li :first-child{
 }
 
 footer {
+    margin-top:240px;
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
     font-size: 14px;
     color: #333;
+    height: 100%;
+    
 }
 
 footer p {
