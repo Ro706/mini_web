@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nev-bar-responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Services</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Hello World</h1>
+        <p>Welcome to Ro706</p> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ad, voluptatum ratione blanditiis magnam molestiae natus commodi minima perferendis adipisci? Maxime iste laborum cumque nobis, eaque quo nisi! Eum, dolores non! Magni, et? Eligendi numquam enim, maxime eius delectus placeat quod totam? Sit, cupiditate explicabo nam cum recusandae eos consectetur voluptatem eligendi ipsa soluta quo beatae, labore maxime? Sunt temporibus quia, sapiente praesentium nobis ipsa repellat, a ad quae ab eveniet corporis doloremque quibusdam et nulla! Repellat explicabo optio illum nostrum tempora, modi pariatur excepturi fuga molestias eveniet provident nulla quasi quam asperiores vel vero nihil libero eos eaque distinctio exercitationem! Sunt recusandae illo ipsam dolores eum dicta iste. Aliquid provident ex ea officiis obcaecati magni hic, ullam ratione necessitatibus eius natus, architecto nisi quas. Eos quasi impedit voluptates voluptatem expedita obcaecati blanditiis est ducimus omnis quam aut eligendi aliquid delectus sint illum reiciendis, libero, voluptas nam! Culpa nesciunt excepturi quo, cumque ullam animi sit delectus sapiente voluptatibus aperiam nemo illo ad aspernatur dolores non natus tenetur officiis aut, accusantium perspiciatis mollitia, similique quidem illum? Praesentium possimus porro corporis. Praesentium iste hic dolores quisquam, qui placeat repudiandae! Esse harum voluptates ab dolores reiciendis officiis unde numquam, in, minus aliquam soluta sed neque accusantium? Repudiandae quo tempore maiores praesentium, doloribus consequatur suscipit eius. Tempore, consequuntur aliquid. Suscipit sunt cumque temporibus labore error eligendi sit quod beatae hic aperiam aliquam, incidunt quo sapiente ipsa commodi. Quidem.</p>
+    </header>
+
+    <footer>
+        <p>&copy; 2024 Ro706</p>
+        <p>Email: <a href="mailto:info@ro706.com">ro706@gmail.com</a></p>
+        <p>Follow us on:
+            <a href="https://www.facebook.com/ro706" target="_blank">Facebook</a> |
+            <a href="https://www.twitter.com/ro706" target="_blank">Twitter</a> |
+            <a href="https://www.linkedin.com/company/ro706" target="_blank">LinkedIn</a>
+        </p>
+        <p>Address: 123 Ro706 Street, City, Country</p>
+        <p>Phone: +123-456-7890</p>
+    </footer>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "flex";
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "none";
+        }
+    </script>
+</body>
+</html>
